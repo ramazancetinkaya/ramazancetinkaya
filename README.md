@@ -1,6 +1,7 @@
 # 💫 About Me:
 <h1 align="center">Hi 👋, I'm Ramazan</h1><br><h3 align="center">I am a passionate backend developer and I am a person who is interested in cyber security.</h3><br><br>- 🌱 I’m currently learning **Advanced Javascript**<br>
 
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&label=Profile%20views&color=0e75b6&style=flat" alt="ramazancetinkaya" /> </p>
 
 ## 🌐 Socials:
