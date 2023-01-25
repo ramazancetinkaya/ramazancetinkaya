@@ -13,7 +13,7 @@
   I am a passionate backend developer and I am a person who is interested in cyber security.
 </h3>
 
-<br> - 🌱 I’m currently learning <strong>Advanced Javascript</strong> <br>
+<br><br> - 🌱 I’m currently learning <strong>Advanced Javascript</strong> <br>
 
 
 ## 🌐 Socials:
