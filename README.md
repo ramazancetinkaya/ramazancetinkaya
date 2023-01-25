@@ -16,6 +16,7 @@
 <br><br> 
 
 - 🌱 I’m currently learning <strong>Advanced Javascript</strong> <br>
+- 🌎 I may be late in responding because I am busy with worldly affairs. Don't be panic.
 
 ## 🌐 Socials:
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/21078549/declare) 
