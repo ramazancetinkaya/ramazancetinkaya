@@ -1,7 +1,8 @@
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&label=Profile%20views&color=0e75b6&style=flat" alt="ramazancetinkaya" /> </p> <br>
+
 # 💫 About Me:
 <h1 align="center">Hi 👋, I'm Ramazan</h1><br><h3 align="center">I am a passionate backend developer and I am a person who is interested in cyber security.</h3><br><br>- 🌱 I’m currently learning **Advanced Javascript**<br>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&label=Profile%20views&color=0e75b6&style=flat" alt="ramazancetinkaya" /> </p>
 
 ## 🌐 Socials:
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/https://stackoverflow.com/users/21078549/declare) 
@@ -21,3 +22,6 @@
 
   ## 💰 You can help me by Donating
   [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/rmznctnky) 
+
+  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
