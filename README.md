@@ -16,6 +16,7 @@
 <br><br> 
 
 - 🌱 I’m currently learning <strong>Advanced Javascript</strong> <br>
+- 👨‍💻 I am interested in Server & Computer security and Network security. <br>
 - 🌎 Feel free to ask me questions, but I can answer late as I am busy with worldly affairs. Don't be panic.
 
 ## 🌐 Socials:
