@@ -69,6 +69,7 @@
 
 ### Software, programs and tools that I am fully competent in;
 
+- **Google Developer Console**
 - **Trello**
 - **Notion**
 - **Slack**
