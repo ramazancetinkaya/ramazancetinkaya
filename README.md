@@ -63,8 +63,11 @@
 
 </td></tr></table>  
 
-<br/>  
+<br/>
 
+<div align="left">I also have full competence in using software such as Trello, Notion, Slack, Zoom, Microsoft Teams, Discord, Skype, remote access programs.</div>
+
+<br/>
 
 ## Connect with me  
 <div align="center">
