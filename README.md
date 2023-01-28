@@ -77,6 +77,7 @@
 - Discord
 - Skype
 - Remote access programs
+- I have a valid certificate showing that I know Office programs.
 
 <br/>
 
