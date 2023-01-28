@@ -67,7 +67,7 @@
 
 ## Softwares, Programs and Tools
 
-### Software, programs and tools that I am fully competent in;
+### The items listed below are software, programs and tools for which I am fully competent:
 
 - **Google Developer Console**
 - **Trello**
