@@ -67,7 +67,16 @@
 
 ## Softwares, Programs and Tools
 
-<div align="left">I also have full competence in using software such as Trello, Notion, Slack, Zoom, Microsoft Teams, Discord, Skype, remote access programs.</div>
+### Software, programs and tools that I am fully competent in;
+
+- Trello
+- Notion
+- Slack
+- Zoom
+- Microsoft Teams
+- Discord
+- Skype
+- Remote access programs
 
 <br/>
 
