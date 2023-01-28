@@ -69,15 +69,15 @@
 
 ### Software, programs and tools that I am fully competent in;
 
-- Trello
-- Notion
-- Slack
-- Zoom
-- Microsoft Teams
-- Discord
-- Skype
-- Remote access programs
-- I have a valid certificate showing that I know Office programs.
+- **Trello**
+- **Notion**
+- **Slack**
+- **Zoom**
+- **Microsoft Teams**
+- **Discord**
+- **Skype**
+- **Remote access programs**
+- I have a valid certificate showing that I know **Microsoft Office** programs.
 
 <br/>
 
