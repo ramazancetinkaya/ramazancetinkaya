@@ -112,7 +112,7 @@
   <a href="https://github.com/ramazancetinkaya">
       <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&&style=flat-square" align="center" />
   <a/>
-  <a href="https://github.com/ramazancetinkaya">
+  <a href="https://github.com/ramazancetinkaya?tab=followers">
     <img src="https://img.shields.io/github/followers/ramazancetinkaya?label=Followers&style=social" alt="GitHub Badge" align="center">
   <a/>
 </div>  
