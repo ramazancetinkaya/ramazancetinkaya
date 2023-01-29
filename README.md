@@ -108,14 +108,14 @@
 <div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramazancetinkaya&hide_border=true&layout=compact" align="center" /></div>  
 <br/>  
 
-<p align="center">
+<div align="center">
   <a href="https://github.com/ramazancetinkaya">
       <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&&style=flat-square" align="center" />
   <a/>
   <a href="https://github.com/ramazancetinkaya">
-    <img src="https://img.shields.io/github/followers/ramazancetinkaya?label=Followers&style=social" alt="GitHub Badge">
+    <img src="https://img.shields.io/github/followers/ramazancetinkaya?label=Followers&style=social" alt="GitHub Badge" align="center">
   <a/>
-</p>  
+</div>  
   
 <br/>
 
