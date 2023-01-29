@@ -2,7 +2,6 @@
 <img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
 </div>  
   
-
 ### <div align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [PHP, SQL, HTML, CSS, Javascript]. I am a highly motivated and dedicated individual with experience in [Web Development and Cyber Security].</div>  
   
 <br>  
@@ -18,9 +17,7 @@
 
 - ⚡ Fun fact: I use tabs over spaces.  
   
-
 <br/>  
-
 
 ## My Skill Set  
 <table>  
@@ -85,32 +82,34 @@
 
 ## Connect with me  
 <div align="center">
-<a href="https://github.com/ramazancetinkaya" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://codepen.com/declare" target="_blank">
-<img src=https://img.shields.io/badge/codepen-%23131417.svg?&style=for-the-badge&logo=codepen&logoColor=white alt=codepen style="margin-bottom: 5px;" />
-</a>
-<a href="https://stackoverflow.com/users/21078549/declare" target="_blank">
-<img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;" />
-</a>  
-</div>  
+    <a href="https://github.com/ramazancetinkaya" target="_blank">
+        <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+    </a>
+    <a href="https://codepen.com/declare" target="_blank">
+        <img src=https://img.shields.io/badge/codepen-%23131417.svg?&style=for-the-badge&logo=codepen&logoColor=white alt=codepen style="margin-bottom: 5px;" />
+    </a>
+    <a href="https://stackoverflow.com/users/21078549/declare" target="_blank">
+        <img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;" />
+    </a>
+</div>
   
-
 <br/>  
 
-
 ## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=ramazancetinkaya&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ramazancetinkaya&show_icons=true&count_private=true&hide_border=true" align="center" />
+</div>  
 
 <br/>  
 
 ## Most Used Languages 
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramazancetinkaya&hide_border=true&layout=compact" align="center" /></div>  
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramazancetinkaya&hide_border=true&layout=compact" align="center" />
+</div>  
 <br/>  
 
 <div align="center">
-  <a href="https://github.com/ramazancetinkaya">
+  <a href="#">
       <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&&style=flat-square" align="center" />
   <a/>
   <a href="https://github.com/ramazancetinkaya?tab=followers">
@@ -129,4 +128,5 @@
 <br />
 
 ----
+    
 <div align="center">Thank you for visiting my profile! I hope you find it interesting and informative. I am excited to be a part of the developer community and I'm always looking for ways to improve my skills and knowledge.</div>
