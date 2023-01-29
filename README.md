@@ -104,27 +104,23 @@
 
 <br/>  
 
-
 ## Most Used Languages 
 <div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramazancetinkaya&hide_border=true&layout=compact" align="center" /></div>  
-
 <br/>  
 
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&&style=flat-square" align="center" />
-</div>  
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&&style=flat-square" align="center" />
+  <img src="https://img.shields.io/github/followers/ramazancetinkaya?label=Followers&style=social" alt="GitHub Badge">
+</p>  
   
-
-<br/>  
+<br/>
 
 <div align="center">
-            <a href="https://www.buymeacoffee.com/rmznctnky" target="_blank" style="display: inline-block;">
-                <img
-                    src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" 
-                    align="center"
-                />
-            </a>
+  <a href="https://www.buymeacoffee.com/rmznctnky" target="_blank" style="display: inline-block;">
+    <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" align="center" />
+  </a>
 </div>
+
 <br />
 
 ----
