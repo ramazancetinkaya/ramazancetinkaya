@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+  <img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
 </div>  
   
-### <div align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [PHP, SQL, HTML, CSS, Javascript]. I am a highly motivated and dedicated individual with experience in [Web Development and Cyber Security].</div>  
+### <div align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [PHP, SQL, HTML, CSS, Javascript]. I am a highly motivated and dedicated individual with experience in [Web Development and Cyber Security].</div>
   
 <br>  
 
