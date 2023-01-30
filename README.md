@@ -68,6 +68,7 @@
 ### The items listed below are software, programs and tools for which I am fully competent:
 
 - **Google Developer Console**
+- **Postman**
 - **Trello**
 - **Notion**
 - **Slack**
@@ -76,7 +77,7 @@
 - **Discord**
 - **Skype**
 - **Remote access programs**
-- I have a valid certificate showing that I know **Microsoft Office** programs.
+- **Word, Excel, Powerpoint**
 
 <br/>
 
