@@ -70,6 +70,8 @@
     
 <div align="center">Thank you for visiting my profile! I hope you find it interesting and informative. I am excited to be a part of the developer community and I'm always looking for ways to improve my skills and knowledge.</div>
 
+###
+
 <div align="center">
   <a href="#">
       <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&&style=flat-square" align="center" />
