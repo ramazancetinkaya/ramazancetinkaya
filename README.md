@@ -1,113 +1,72 @@
+<h3 align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [PHP, SQL, HTML, CSS, Javascript]. I am a highly motivated and dedicated individual with experience in [Web Development and Cyber Security].</h3>
+
+###
+
 <div align="center">
-  <img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
-  
-### <div align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [PHP, SQL, HTML, CSS, Javascript]. I am a highly motivated and dedicated individual with experience in [Web Development and Cyber Security].</div>
-  
-<br>  
-
-- 🌎 I am not currently working for any project or team because I have important worldly affairs to take care of.  
-  
-
-- 🌱 I’m currently learning Advanced Javascript.  
-  
-
-- ❓ Ask me about anything related to Web Development and related technologies.  
-  
-
-- ⚡ Fun fact: I use tabs over spaces.  
-  
-<br/>  
-
-## My Skill Set  
-<table>  
-<tr>
-<td valign="top" width="33%">
-
-### Frontend  
-<div align="center">
-    <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>
-    <a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>
-    <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>
-    <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>
-    <a href="https://jquery.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/jquery.png" alt="jQuery" height="50" /></a>
+  <img height="200" src="https://media3.giphy.com/media/Km44L0dd839bG/giphy.gif?cid=790b7611df9825caf0769107b4450ca0faaaef001e166ada&rid=giphy.gif&ct=g"  />
 </div>
 
-</td>
-<td valign="top" width="33%">
+###
 
-### Backend  
+<h2 align="left">Languages & Skills</h2>
+
+###
+
 <div align="center">
-    <a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" /></a>
-    <a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>
-    <a href="https://laravel.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/laravel-plain-wordmark.svg" alt="Laravel" height="50" /></a>
-    <a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>
-    <a href="https://codeigniter.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/codeigniter.svg" alt="CodeIgniter" height="50" /></a>
-    <a href="https://wordpress.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/wordpress.png" alt="WordPress" height="50" /></a>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" height="60" width="80" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" height="60" width="80" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="60" width="80" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="60" width="80" alt="bootstrap logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" height="60" width="80" alt="jquery logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" height="60" width="80" alt="php logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" height="60" width="80" alt="laravel logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg" height="60" width="80" alt="codeigniter logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" height="60" width="80" alt="wordpress logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-plain-wordmark.svg" height="60" width="80" alt="apache logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="60" width="80" alt="nginx logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="60" width="80" alt="mysql logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" height="60" width="80" alt="git logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original-wordmark.svg" height="60" width="80" alt="ssh logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="60" width="80" alt="bash logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="60" width="80" alt="linux logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="60" width="80" alt="windows8 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" height="60" width="80" alt="amazonwebservices logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="60" width="80" alt="docker logo"  />
 </div>
 
-</td>
-<td valign="top" width="33%">
+###
 
-### DevOps  
+<h2 align="left">Github Statistics</h2>
+
+###
+
 <div align="center">
-    <a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" /></a>
-    <a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>
-    <a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>
-    <a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" /></a>
+  <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&username=ramazancetinkaya" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false&username=ramazancetinkaya" height="150" alt="languages graph"  />
 </div>
 
-</td>
-</tr>
-</table>  
+###
 
-<br/>
+<br clear="both">
 
-## Softwares, Programs and Tools
+<img src="https://raw.githubusercontent.com/ramazancetinkaya/ramazancetinkaya/blob/output/snake.svg" alt="Snake animation" />
 
-### The items listed below are software, programs and tools for which I am fully competent:
+###
 
-- **Google Developer Console**
-- **Postman**
-- **Trello**
-- **Notion**
-- **Slack**
-- **Zoom**
-- **Microsoft Teams**
-- **Discord**
-- **Skype**
-- **Remote access programs**
-- **Word, Excel, Powerpoint**
+<h2 align="left">Devoloper Pages</h2>
 
-<br/>
+###
 
-## Connect with me  
-<div align="center">
-    <a href="https://github.com/ramazancetinkaya" target="_blank">
-        <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-    </a>
-    <a href="https://codepen.com/declare" target="_blank">
-        <img src=https://img.shields.io/badge/codepen-%23131417.svg?&style=for-the-badge&logo=codepen&logoColor=white alt=codepen style="margin-bottom: 5px;" />
-    </a>
-    <a href="https://stackoverflow.com/users/21078549/declare" target="_blank">
-        <img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;" />
-    </a>
+<div align="left">
+  <a href="https://stackoverflow.com/users/21078549/declare" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Stackoverflow&logo=stackoverflow&label=&color=FE7A16&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="stackoverflow logo"  />
+  </a>
+  <a href="https://codepen.io/declare" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Codepen&logo=codepen&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="codepen logo"  />
+  </a>
 </div>
-  
-<br/>  
 
-## Github Stats  
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ramazancetinkaya&show_icons=true&count_private=true&hide_border=true" align="center" />
-</div>  
-
-<br/>  
-
-## Most Used Languages 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramazancetinkaya&hide_border=true&layout=compact" align="center" />
-</div>  
-<br/>  
+###
 
 <div align="center">
   <a href="#">
