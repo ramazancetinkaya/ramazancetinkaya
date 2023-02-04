@@ -47,7 +47,7 @@
 
 ###
 
-<h2 align="left">Github Streak</h2>
+<h2 align="left">Github Streak Statistics</h2>
 
 ###
 
