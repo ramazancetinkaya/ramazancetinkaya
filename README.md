@@ -83,8 +83,7 @@
     
 ###
   
-<div align="center">
-  <a href="https://www.buymeacoffee.com/rmznctnky" target="_blank" style="display: inline-block;">
-    <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" align="center" />
-  </a>
-</div>
+<h2 align="left">Support:</h3>
+<p>
+  <a href="https://www.buymeacoffee.com/rmznctnky"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="rmznctnky" /></a>
+</p>
