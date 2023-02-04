@@ -69,7 +69,7 @@
 
 ###
 
-<h2 align="left">Devoloper Pages</h2>
+<h2 align="left">Developer Pages</h2>
 
 ###
 
