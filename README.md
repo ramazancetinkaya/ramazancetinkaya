@@ -79,7 +79,9 @@
   <a href="https://github.com/ramazancetinkaya?tab=followers">
     <img src="https://img.shields.io/github/followers/ramazancetinkaya?label=Followers&style=social" alt="GitHub Badge" align="center">
   <a/>
-</div>  
+</div>
+    
+###
   
 <div align="center">
   <a href="https://www.buymeacoffee.com/rmznctnky" target="_blank" style="display: inline-block;">
