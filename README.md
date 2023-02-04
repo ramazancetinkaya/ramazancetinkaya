@@ -64,7 +64,9 @@
   </a>
 </div>
 
-###
+----
+    
+<div align="center">Thank you for visiting my profile! I hope you find it interesting and informative. I am excited to be a part of the developer community and I'm always looking for ways to improve my skills and knowledge.</div>
 
 <div align="center">
   <a href="#">
@@ -82,9 +84,3 @@
     <img src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" align="center" />
   </a>
 </div>
-
-<br />
-
-----
-    
-<div align="center">Thank you for visiting my profile! I hope you find it interesting and informative. I am excited to be a part of the developer community and I'm always looking for ways to improve my skills and knowledge.</div>
