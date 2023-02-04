@@ -1,4 +1,4 @@
-<h3 align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [**PHP**, **SQL**, **HTML**, **CSS**, **Javascript**]. I am a highly motivated and dedicated individual with experience in [**Web Development** and **Cyber Security**].</h3>
+<h3 align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [[b]PHP, SQL, HTML, CSS, Javascript[/b]]. I am a highly motivated and dedicated individual with experience in [[b]Web Development and Cyber Security[/b]].</h3>
 
 ###
 
