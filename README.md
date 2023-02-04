@@ -74,6 +74,7 @@
 
 <div align="center">
   <a href="#">
+      <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&label=Profile%20views&color=0e75b6&style=flat" alt="ramazancetinkaya" /> 
       <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&&style=flat-square" align="center" />
   <a/>
   <a href="https://github.com/ramazancetinkaya?tab=followers">
