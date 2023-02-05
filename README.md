@@ -24,7 +24,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="60" width="80" alt="javascript logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="60" width="80" alt="bootstrap logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" height="60" width="80" alt="jquery logo"  />
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" height="60" width="80" alt="php logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" height="60" width="80" alt="php logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" height="60" width="80" alt="laravel logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg" height="60" width="80" alt="codeigniter logo"  />
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" height="60" width="80" alt="wordpress logo"  />
