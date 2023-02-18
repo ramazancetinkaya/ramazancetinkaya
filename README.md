@@ -4,7 +4,7 @@
 
 ###
 
-<h3 align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [PHP, SQL, HTML, CSS, Javascript]. I am a highly motivated and dedicated individual with experience in [Web Development and Cyber Security].</h3>
+<h3 align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [PHP, SQL, Javascript]. I am a highly motivated and dedicated individual with experience in [Web Development and Cyber Security].</h3>
 
 ###
 
@@ -14,7 +14,7 @@
 
 ###
 
-<h2 align="left">Languages & Skills</h2>
+<h2 align="left"> <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"> Skills</h2>
 
 ###
 
@@ -26,7 +26,7 @@
 
 ###
 
-<h2 align="left">Github Statistics</h2>
+<h2 align="left"> <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Github Statistics</h2>
 
 ###
 
