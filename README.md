@@ -10,6 +10,8 @@
 
 <div align="center">
   <img height="200" src="https://media3.giphy.com/media/Km44L0dd839bG/giphy.gif?cid=790b7611df9825caf0769107b4450ca0faaaef001e166ada&rid=giphy.gif&ct=g"  />
+  <br>
+  "Bir kodcu asla hata yapmaz, sadece beklenmedik sonuçlar üretir."
 </div>
 
 ###
