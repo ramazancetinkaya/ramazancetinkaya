@@ -9,7 +9,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://media3.giphy.com/media/Km44L0dd839bG/giphy.gif?cid=790b7611df9825caf0769107b4450ca0faaaef001e166ada&rid=giphy.gif&ct=g"  />
+  <img height="300" width="400" src="https://miro.medium.com/v2/resize:fit:1400/0*k98Ra5UzgDrSz-vv.png"  />
   <br>
   "Bir kodcu asla hata yapmaz, sadece beklenmedik sonuçlar üretir."
 </div>
