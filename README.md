@@ -9,9 +9,7 @@
 ###
 
 <div align="center">
-  <img height="300" width="400" src="https://miro.medium.com/v2/resize:fit:1400/0*k98Ra5UzgDrSz-vv.png"  />
-  <br>
-  "Bir kodcu asla hata yapmaz, sadece beklenmedik sonuçlar üretir."
+  <img height="400" width="500" src="https://pbs.twimg.com/media/E8aSMyzUcAIiRDx.jpg"  />
 </div>
 
 ###
