@@ -9,7 +9,7 @@
 ###
 
 <div align="center">
-  <img height="400" width="500" src="https://pbs.twimg.com/media/E8aSMyzUcAIiRDx.jpg"  />
+  <img height="400" width="450" src="https://pbs.twimg.com/media/E8aSMyzUcAIiRDx.jpg"  />
 </div>
 
 ###
