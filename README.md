@@ -9,7 +9,7 @@
 ###
 
 <div align="center">
-  <img src="https://i.imgur.com/0T4qapJ.png">
+  <img src="https://i.imgur.com/wjrvnhj.png">
 </div>
 
 ###
