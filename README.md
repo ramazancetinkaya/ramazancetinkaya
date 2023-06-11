@@ -9,7 +9,7 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://i.pinimg.com/736x/ea/21/4d/ea214df4b094e8e512aba08fedc3cf75.jpg"  />
+  <img src="https://i.imgur.com/0T4qapJ.png">
 </div>
 
 ###
