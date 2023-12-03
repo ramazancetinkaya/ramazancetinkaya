@@ -4,13 +4,7 @@
 
 ###
 
-<h3 align="center">Hi there! My name is Ramazan and I'm a Backend Web Developer with a passion for [PHP, SQL, Javascript]. I am a highly motivated and dedicated individual with experience in [Web Development and Cyber Security].</h3>
-
-###
-
-<div align="center">
-  <img src="https://i.imgur.com/wjrvnhj.png">
-</div>
+<h3 align="center">6 hours of debugging can save you 5 minutes of reading documentation</h3>
 
 ###
 
@@ -20,7 +14,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://skillicons.dev/icons?i=php,laravel,wordpress,nginx,mysql,git,powershell,bash,linux,aws,cloudflare,docker&perline=6" />
+    <img src="https://skillicons.dev/icons?i=javascript,php,mysql,laravel,wordpress,bash,linux,git&perline=4" />
   </a>
 </p>
 
@@ -49,21 +43,6 @@
 
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
-
-###
-
-<h2 align="left">Developer Pages</h2>
-
-###
-
-<div align="left">
-  <a href="https://stackoverflow.com/users/21078549/declare" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Stackoverflow&logo=stackoverflow&label=&color=FE7A16&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="stackoverflow logo"  />
-  </a>
-  <a href="https://www.hackerrank.com/declare" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=0e141e&logoColor=&labelColor=&style=for-the-badge" height="35" alt="hackerrank logo"  />
-  </a>
 </div>
 
 ----
