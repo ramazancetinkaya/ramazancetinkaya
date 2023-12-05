@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="https://skillicons.dev/icons?i=javascript,php,mysql,laravel,wordpress,bash,linux,git&perline=4" />
+    <img src="https://skillicons.dev/icons?i=javascript,nodejs,php,regex,mysql,laravel,wordpress,bash,linux,git&perline=5" />
   </a>
 </p>
 
