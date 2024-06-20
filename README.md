@@ -31,16 +31,6 @@
 
 ###
 
-<h2 align="left">Github Streak Statistics</h2>
-
-###
-
-<div align="center">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ramazancetinkaya&theme=dark" alt="ramazancetinkaya" />
-</div>
-
-###
-
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
