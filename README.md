@@ -45,13 +45,13 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 </p>
 
-###
-
 ## Contact
 
-###
+<p align="left">
+  
+[![Email](https://img.shields.io/badge/Email-ramazancetinkayasoftworks%40protonmail.com-blue?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=505050)](mailto:&#114;&#97;&#109;&#97;&#122;&#97;&#110;&#99;&#101;&#116;&#105;&#110;&#107;&#97;&#121;&#97;&#115;&#111;&#102;&#116;&#119;&#111;&#114;&#107;&#115;&#64;&#112;&#114;&#111;&#116;&#111;&#110;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;)
 
-**Email**: [&#114;&#97;&#109;&#97;&#122;&#97;&#110;&#99;&#101;&#116;&#105;&#110;&#107;&#97;&#121;&#97;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;&#64;&#112;&#114;&#111;&#116;&#111;&#110;&#46;&#109;&#101;](mailto:&#114;&#97;&#109;&#97;&#122;&#97;&#110;&#99;&#101;&#116;&#105;&#110;&#107;&#97;&#121;&#97;&#115;&#111;&#102;&#116;&#119;&#97;&#114;&#101;&#64;&#112;&#114;&#111;&#116;&#111;&#110;&#46;&#109;&#101;)
+</p>
 
 ###
 
@@ -88,5 +88,5 @@
 ###
   
 <div align="center">
-  <a href="https://www.buymeacoffee.com/cetinkayaramazan"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="cetinkayaramazan" /></a>
+  <a href="https://www.buymeacoffee.com/"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="" /></a>
 </div>
