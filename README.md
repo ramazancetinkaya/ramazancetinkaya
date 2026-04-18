@@ -1,92 +1,181 @@
-<h1 align="center">
-  >Hello World!
-</h1>
+<p align="center">
+  <img src="github-profile-cover-image.png" width="auto" height="auto" alt="Cover Image">
+</p>
+
+<div align="center">
+
+  <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&label=Profile%20Views&color=6366f1&style=for-the-badge" alt="ramazancetinkaya" /> 
+
+  <a href="https://github.com/ramazancetinkaya?tab=followers">
+    <img src="https://img.shields.io/github/followers/ramazancetinkaya?label=Followers&style=for-the-badge&logo=github&color=f59e0b&logoColor=white" alt="GitHub Followers">
+  </a>
+
+</div>
 
 ###
 
-<h3 align="center">6 hours of debugging can save you 5 minutes of reading documentation</h3>
+<div align="center">
 
-###
+<h2>Technical Stack</h2>
 
-<h2 align="left"> <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="30"> Skills</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Languages-2A2A2A?style=flat-square" alt="Languages" /><br>
+          <b>Languages</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+          <img src="https://img.shields.io/badge/SQL-555555?style=for-the-badge" alt="SQL" />
+          <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Frameworks-2A2A2A?style=flat-square" alt="Frameworks" /><br>
+          <b>Frameworks</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-CMS-2A2A2A?style=flat-square" alt="CMS" /><br>
+          <b>CMS</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Runtimes-2A2A2A?style=flat-square" alt="Runtimes" /><br>
+          <b>Runtimes</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Frontend-2A2A2A?style=flat-square" alt="Frontend" /><br>
+          <b>Frontend</b><br>
+          <sub>(Personal projects only)</sub>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3" />
+          <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+          <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Databases-2A2A2A?style=flat-square" alt="Databases" /><br>
+          <b>Databases & BaaS</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+          <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Cybersecurity-2A2A2A?style=flat-square" alt="Cybersecurity" /><br>
+          <b>Cybersecurity</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Kali Linux" />
+          <img src="https://img.shields.io/badge/Metasploit-2A52A2?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
+          <img src="https://img.shields.io/badge/Nmap-4DABCF?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap" />
+          <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+          <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burp-suite&logoColor=white" alt="Burp Suite" />
+          <img src="https://img.shields.io/badge/Nessus-002F5A?style=for-the-badge" alt="Nessus" />
+          <img src="https://img.shields.io/badge/SQLMap-555555?style=for-the-badge" alt="SQLMap" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-DevOps-2A2A2A?style=flat-square" alt="DevOps" /><br>
+          <b>DevOps</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+          <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Cloud-2A2A2A?style=flat-square" alt="Cloud" /><br>
+          <b>Cloud</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Tools-2A2A2A?style=flat-square" alt="Tools" /><br>
+          <b>Tools</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Systems-2A2A2A?style=flat-square" alt="Systems" /><br>
+          <b>Systems</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+          <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
+          <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
-###
-
-### Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Regex-000000?style=for-the-badge&logo=regex&logoColor=white" alt="Regex"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
-</p>
-
-### Frameworks & Libraries
-<p align="left">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-</p>
-
-### Tools & Platforms
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" alt="DigitalOcean"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
-  <img src="https://img.shields.io/badge/Metasploit-343434?style=for-the-badge&logo=metasploit&logoColor=red" alt="Metasploit"/>
-  <img src="https://img.shields.io/badge/Nmap-4D4D4D?style=for-the-badge&logo=nmap&logoColor=red" alt="Nmap"/>
-</p>
-
-### Databases
-<p align="left">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-</p>
+</div>
 
 ## Contact
 
-<p align="left">
+> [!NOTE]
+> Due to active **Cybersecurity research and projects**, there may be delays in responding to GitHub activities such as Issues, Pull Requests, or Bug Reports.
+
+### 📬 E-mail
+
+For urgent matters or inquiries, please reach out via the email address below. 
+
+**Email:** `ramazancetinkayasolutions@protonmail.com`
+
+**⚠️ Security Protocol:**
+* Please use **plain text only**.
+* Do **NOT** include links, attachments (PDF, DOCX, etc.), or executable files.
+* Emails containing any of the above will be automatically ignored and deleted for security reasons.
+
+<div align="center">
+
+  <h2>Github Repository Statistics</h2>
   
-[![Email](https://img.shields.io/badge/Email-ramazancetinkayasoftworks%40protonmail.com-blue?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=505050)](mailto:&#114;&#97;&#109;&#97;&#122;&#97;&#110;&#99;&#101;&#116;&#105;&#110;&#107;&#97;&#121;&#97;&#115;&#111;&#102;&#116;&#119;&#111;&#114;&#107;&#115;&#64;&#112;&#114;&#111;&#116;&#111;&#110;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;)
+  ![ramazancetinkaya's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ramazancetinkaya&theme=dark&show_icons=true&hide_border=true)
 
-</p>
-
-###
-
-<h2 align="left"> <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> Github Statistics</h2>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dark&locale=en&hide_border=false&username=ramazancetinkaya" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false&username=ramazancetinkaya" height="150" alt="languages graph"  />
-</div>
-
-###
-
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
-
-----
-    
-<div align="center">Thank you for visiting my profile! I hope you find it interesting and informative. I am excited to be a part of the developer community and I'm always looking for ways to improve my skills and knowledge.</div>
-
-###
-
-<div align="center">
-  <a href="#">
-      <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&label=Profile%20views&color=0e75b6&style=flat" alt="ramazancetinkaya" align="center" /> 
-  <a/>
-  <a href="https://github.com/ramazancetinkaya?tab=followers">
-    <img src="https://img.shields.io/github/followers/ramazancetinkaya?label=Followers&style=social" alt="GitHub Badge" align="center">
-  <a/>
 </div>
     
 ###
   
 <div align="center">
   <a href="https://coff.ee/cetinkayaramazan"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="cetinkayaramazan" /></a>
+</div>
+
+---
+
+<div align="center">
+  <kbd>
+    <b>Last Updated:</b> April 18, 2026
+  </kbd>
 </div>
