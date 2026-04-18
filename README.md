@@ -61,6 +61,16 @@
       </tr>
       <tr>
         <td align="center" width="180">
+          <img src="https://img.shields.io/badge/-Web_Servers-2A2A2A?style=flat-square" alt="Web Servers" /><br>
+          <b>Web Servers</b>
+        </td>
+        <td align="left" width="600">
+          <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
+          <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=Apache&logoColor=white" alt="Apache" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center" width="180">
           <img src="https://img.shields.io/badge/-Frontend-2A2A2A?style=flat-square" alt="Frontend" /><br>
           <b>Frontend</b><br>
           <sub>(Personal projects only)</sub>
