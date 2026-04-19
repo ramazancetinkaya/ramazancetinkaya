@@ -157,6 +157,9 @@
 > [!NOTE]
 > I am currently focused on active cybersecurity and backend development projects, so I may be a bit slower than usual in responding to GitHub Issues or Pull Requests. Thanks for your patience!
 
+> [!IMPORTANT]
+> I am aware that legacy email addresses remain in some of my older repositories as I work on updating them; please refer to this section for my most current and verified contact information.
+
 ### 📬 E-mail
 
 If you have an urgent matter or a professional inquiry, you can reach me directly via email:
@@ -187,6 +190,6 @@ If you have an urgent matter or a professional inquiry, you can reach me directl
 
 <div align="center">
   <kbd>
-    <b>Last Updated:</b> April 18, 2026
+    <b>Last Updated:</b> April 19, 2026
   </kbd>
 </div>
