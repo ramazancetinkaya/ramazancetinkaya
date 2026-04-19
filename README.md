@@ -152,21 +152,22 @@
 
 </div>
 
-## Contact
+## Get in Touch
 
 > [!NOTE]
-> Due to active **Cybersecurity research and projects**, there may be delays in responding to GitHub activities such as Issues, Pull Requests, or Bug Reports.
+> I am currently focused on active cybersecurity and backend development projects, so I may be a bit slower than usual in responding to GitHub Issues or Pull Requests. Thanks for your patience!
 
 ### 📬 E-mail
 
-For urgent matters or inquiries, please reach out via the email address below. 
+If you have an urgent matter or a professional inquiry, you can reach me directly via email:
 
 **Email:** `ramazancetinkayasolutions@protonmail.com`
 
-**⚠️ Security Protocol:**
-* Please use **plain text only**.
-* Do **NOT** include links, attachments (PDF, DOCX, etc.), or executable files.
-* Emails containing any of the above will be automatically ignored and deleted for security reasons.
+**To keep our communication secure and efficient, I follow a simple protocol:**
+
+* URL shorteners are automatically filtered for safety, but direct links to reputable developer platforms or official documentation are acceptable for context.
+* Refrain from including any attachments or files, as these will be automatically discarded to maintain the security of the communication channel.
+* Plain text is preferred for a faster and safer review.
 
 <div align="center">
 
