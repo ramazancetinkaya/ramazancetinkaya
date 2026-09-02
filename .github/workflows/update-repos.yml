@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch repositories and update README
+      - name: Fetch repositories and render modern tables
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -34,57 +34,80 @@ jobs:
           import requests
 
           USERNAME = "ramazancetinkaya"
-          HEADERS = {}
+          HEADERS = {
+              "Accept": "application/vnd.github+json"
+          }
           token = os.getenv("GITHUB_TOKEN")
           if token:
-              HEADERS["Authorization"] = f"token {token}"
+              HEADERS["Authorization"] = f"Bearer {token}"
 
-          def fetch_repos():
+          def fetch_original_repos():
               repos = []
               page = 1
               while True:
-                  url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}"
+                  # type=owner retrieves only repositories owned directly by the user
+                  url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type=owner"
                   response = requests.get(url, headers=HEADERS)
+                  if response.status_code != 200:
+                      print(f"Failed to fetch repos: {response.status_code} - {response.text}")
+                      break
+
                   data = response.json()
                   if not data or not isinstance(data, list):
                       break
-                  # Exclude forks created from upstream repositories
-                  own_repos = [r for r in data if not r.get("fork")]
-                  repos.extend(own_repos)
+
+                  # Explicitly filter out any repositories marked as forks
+                  for repo in data:
+                      if not repo.get("fork", False):
+                          repos.append(repo)
+
                   if len(data) < 100:
                       break
                   page += 1
               return repos
 
-          def render_list(repo_list, count_key, icon):
-              lines = []
+          def render_table(repo_list, count_key, metric_header):
+              if not repo_list:
+                  return "_No public repositories found._"
+
+              header = (
+                  f"| Repository | Description | Primary Language | {metric_header} |\n"
+                  f"| :--- | :--- | :---: | :---: |"
+              )
+              
+              rows = []
               for repo in repo_list[:5]:
                   name = repo["name"]
                   url = repo["html_url"]
-                  count = repo[count_key]
-                  desc = repo.get("description") or "No description provided."
-                  lines.append(f"- [{name}]({url}) - {icon} **{count}** · _{desc}_")
-              return "\n".join(lines) if lines else "- No public repositories found."
+                  raw_desc = repo.get("description") or "No description provided."
+                  # Sanitize pipes and newlines to preserve table alignment
+                  desc = raw_desc.replace("|", "&#124;").replace("\n", " ").strip()
+                  lang = repo.get("language") or "Markdown"
+                  count = repo.get(count_key, 0)
 
-          repos = fetch_repos()
+                  rows.append(f"| [**{name}**]({url}) | {desc} | `{lang}` | **{count}** |")
+
+              return header + "\n" + "\n".join(rows)
+
+          repos = fetch_original_repos()
 
           top_starred = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)
           top_forked = sorted(repos, key=lambda r: r.get("forks_count", 0), reverse=True)
 
-          starred_md = render_list(top_starred, "stargazers_count", "⭐")
-          forked_md = render_list(top_forked, "forks_count", "🍴")
+          starred_table = render_table(top_starred, "stargazers_count", "Stars ⭐")
+          forked_table = render_table(top_forked, "forks_count", "Forks 🍴")
 
           with open("README.md", "r", encoding="utf-8") as f:
-              content = f.read()
+              readme_content = f.read()
 
-          starred_pattern = r"(<!-- START_SECTION:starred -->)(.*?)(<!-- END_SECTION:starred -->)"
-          content = re.sub(starred_pattern, f"\\1\n{starred_md}\n\\3", content, flags=re.DOTALL)
+          starred_pattern = r"()(.*?)()"
+          readme_content = re.sub(starred_pattern, f"\\1\n\n{starred_table}\n\n\\3", readme_content, flags=re.DOTALL)
 
-          forked_pattern = r"(<!-- START_SECTION:forked -->)(.*?)(<!-- END_SECTION:forked -->)"
-          content = re.sub(forked_pattern, f"\\1\n{forked_md}\n\\3", content, flags=re.DOTALL)
+          forked_pattern = r"()(.*?)()"
+          readme_content = re.sub(forked_pattern, f"\\1\n\n{forked_table}\n\n\\3", readme_content, flags=re.DOTALL)
 
           with open("README.md", "w", encoding="utf-8") as f:
-              f.write(content)
+              f.write(readme_content)
           EOF
 
       - name: Commit and push changes
@@ -92,4 +115,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || (git commit -m "Update top starred and forked repositories" && git push)
+          git diff --staged --quiet || (git commit -m "style: format top repositories table" && git push)
