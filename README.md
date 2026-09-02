@@ -17,26 +17,26 @@
 ### Most Starred Projects
 <!-- START_SECTION:starred -->
 
-| # | Repository | Description | Language | ⭐ Stars |
-| :-: | :-- | :-- | :-: | :-: |
-| **1** | [**password-generator**](https://github.com/ramazancetinkaya/password-generator) | A modern and simple password generator built using HTML, CSS and JS to create fa... | `HTML` | 155 |
-| **2** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built with... | `JavaScript` | 155 |
-| **3** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScript. | `JavaScript` | 146 |
-| **4** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databases u... | `PHP` | 119 |
-| **5** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 97 |
+| # | Repository | Description | Language | ⭐ Stars | Last Updated |
+| :-: | :-- | :-- | :-: | :-: | :-: |
+| **1** | [**password-generator**](https://github.com/ramazancetinkaya/password-generator) | A modern and simple password generator built using HTML, CSS and JS to crea... | `HTML` | 155 | `2026-06-09` |
+| **2** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built... | `JavaScript` | 155 | `2025-08-29` |
+| **3** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 146 | `2024-12-23` |
+| **4** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 119 | `2024-05-10` |
+| **5** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 97 | `2025-02-22` |
 
 <!-- END_SECTION:starred -->
 
 ### Most Forked Projects
 <!-- START_SECTION:forked -->
 
-| # | Repository | Description | Language | 🍴 Forks |
-| :-: | :-- | :-- | :-: | :-: |
-| **1** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databases u... | `PHP` | 108 |
-| **2** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 81 |
-| **3** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScript. | `JavaScript` | 79 |
-| **4** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built with... | `JavaScript` | 73 |
-| **5** | [**todolist**](https://github.com/ramazancetinkaya/todolist) | A modern, highly intuitive, and responsive Kanban-based todo list application en... | `HTML` | 62 |
+| # | Repository | Description | Language | 🍴 Forks | Last Updated |
+| :-: | :-- | :-- | :-: | :-: | :-: |
+| **1** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 108 | `2024-05-10` |
+| **2** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 81 | `2025-02-22` |
+| **3** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 79 | `2024-12-23` |
+| **4** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built... | `JavaScript` | 73 | `2025-08-29` |
+| **5** | [**todolist**](https://github.com/ramazancetinkaya/todolist) | A modern, highly intuitive, and responsive Kanban-based todo list applicati... | `HTML` | 62 | `2026-05-30` |
 
 <!-- END_SECTION:forked -->
 
