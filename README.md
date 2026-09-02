@@ -16,10 +16,20 @@
 
 ### Most Starred Projects
 <!-- START_SECTION:starred -->
+- [password-generator](https://github.com/ramazancetinkaya/password-generator) - ⭐ **155** · _A modern and simple password generator built using HTML, CSS and JS to create fast and secure passwords._
+- [tictactoe](https://github.com/ramazancetinkaya/tictactoe) - ⭐ **155** · _Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built with zero dependencies using only vanilla JS, HTML, and CSS._
+- [snake-game](https://github.com/ramazancetinkaya/snake-game) - ⭐ **146** · _An implementation of the classic Snake game using HTML5, CSS, and JavaScript._
+- [mysql-backup](https://github.com/ramazancetinkaya/mysql-backup) - ⭐ **119** · _A powerful and modern PHP library for backing up and restoring MySQL databases using PDO_
+- [morse-code](https://github.com/ramazancetinkaya/morse-code) - ⭐ **97** · _A simple PHP library for converting text to Morse code and vice versa._
 <!-- END_SECTION:starred -->
 
 ### Most Forked Projects
 <!-- START_SECTION:forked -->
+- [mysql-backup](https://github.com/ramazancetinkaya/mysql-backup) - 🍴 **108** · _A powerful and modern PHP library for backing up and restoring MySQL databases using PDO_
+- [morse-code](https://github.com/ramazancetinkaya/morse-code) - 🍴 **81** · _A simple PHP library for converting text to Morse code and vice versa._
+- [snake-game](https://github.com/ramazancetinkaya/snake-game) - 🍴 **79** · _An implementation of the classic Snake game using HTML5, CSS, and JavaScript._
+- [tictactoe](https://github.com/ramazancetinkaya/tictactoe) - 🍴 **73** · _Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built with zero dependencies using only vanilla JS, HTML, and CSS._
+- [todolist](https://github.com/ramazancetinkaya/todolist) - 🍴 **62** · _A modern, highly intuitive, and responsive Kanban-based todo list application engineered using vanilla web technologies. Designed with a clean, high-contrast light-mode SaaS aesthetic, it offers a distraction-free environment to organize tasks efficiently._
 <!-- END_SECTION:forked -->
 
 ###
