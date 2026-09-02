@@ -14,6 +14,16 @@
 
 ###
 
+### Most Starred Projects
+<!-- START_SECTION:starred -->
+<!-- END_SECTION:starred -->
+
+### Most Forked Projects
+<!-- START_SECTION:forked -->
+<!-- END_SECTION:forked -->
+
+###
+
 <div align="center">
 
 <h2>Technical Stack</h2>
