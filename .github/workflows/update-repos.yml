@@ -1,0 +1,95 @@
+name: Update Top Repositories
+
+on:
+  schedule:
+    # Runs daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch repositories and update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - << 'EOF'
+          import os
+          import re
+          import requests
+
+          USERNAME = "ramazancetinkaya"
+          HEADERS = {}
+          token = os.getenv("GITHUB_TOKEN")
+          if token:
+              HEADERS["Authorization"] = f"token {token}"
+
+          def fetch_repos():
+              repos = []
+              page = 1
+              while True:
+                  url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}"
+                  response = requests.get(url, headers=HEADERS)
+                  data = response.json()
+                  if not data or not isinstance(data, list):
+                      break
+                  # Exclude forks created from upstream repositories
+                  own_repos = [r for r in data if not r.get("fork")]
+                  repos.extend(own_repos)
+                  if len(data) < 100:
+                      break
+                  page += 1
+              return repos
+
+          def render_list(repo_list, count_key, icon):
+              lines = []
+              for repo in repo_list[:5]:
+                  name = repo["name"]
+                  url = repo["html_url"]
+                  count = repo[count_key]
+                  desc = repo.get("description") or "No description provided."
+                  lines.append(f"- [{name}]({url}) - {icon} **{count}** · _{desc}_")
+              return "\n".join(lines) if lines else "- No public repositories found."
+
+          repos = fetch_repos()
+
+          top_starred = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)
+          top_forked = sorted(repos, key=lambda r: r.get("forks_count", 0), reverse=True)
+
+          starred_md = render_list(top_starred, "stargazers_count", "⭐")
+          forked_md = render_list(top_forked, "forks_count", "🍴")
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          starred_pattern = r"(<!-- START_SECTION:starred -->)(.*?)(<!-- END_SECTION:starred -->)"
+          content = re.sub(starred_pattern, f"\\1\n{starred_md}\n\\3", content, flags=re.DOTALL)
+
+          forked_pattern = r"(<!-- START_SECTION:forked -->)(.*?)(<!-- END_SECTION:forked -->)"
+          content = re.sub(forked_pattern, f"\\1\n{forked_md}\n\\3", content, flags=re.DOTALL)
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(content)
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || (git commit -m "Update top starred and forked repositories" && git push)
