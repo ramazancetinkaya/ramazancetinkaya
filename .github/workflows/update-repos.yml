@@ -67,22 +67,27 @@ jobs:
                   page += 1
               return repos
 
-          def clean_description(text, max_len=80):
+          def clean_description(text, max_len=75):
               if not text:
                   return "No description provided."
-              # Prevent broken Markdown tables by replacing pipes and collapsing line breaks
+              # Prevent broken Markdown tables by replacing pipes and line breaks
               sanitized = text.replace("|", "/").replace("\n", " ").replace("\r", " ").strip()
               if len(sanitized) > max_len:
                   return sanitized[:max_len].rstrip() + "..."
               return sanitized
+
+          def get_last_updated_date(repo):
+              # Prefer 'pushed_at' for actual code commits, fallback to 'updated_at'
+              raw_date = repo.get("pushed_at") or repo.get("updated_at") or ""
+              return raw_date[:10] if len(raw_date) >= 10 else "-"
 
           def generate_table(repo_list, metric_key, metric_icon, metric_title):
               if not repo_list:
                   return "_No public repositories found._"
 
               headers = (
-                  f"| # | Repository | Description | Language | {metric_icon} {metric_title} |\n"
-                  f"| :-: | :-- | :-- | :-: | :-: |"
+                  f"| # | Repository | Description | Language | {metric_icon} {metric_title} | Last Updated |\n"
+                  f"| :-: | :-- | :-- | :-: | :-: | :-: |"
               )
               rows = []
               for rank, repo in enumerate(repo_list[:5], start=1):
@@ -92,9 +97,10 @@ jobs:
                   lang = repo.get("language")
                   lang_badge = f"`{lang}`" if lang else "-"
                   metric_value = f"{repo.get(metric_key, 0):,}"
+                  last_updated = get_last_updated_date(repo)
 
                   rows.append(
-                      f"| **{rank}** | [**{name}**]({url}) | {desc} | {lang_badge} | {metric_value} |"
+                      f"| **{rank}** | [**{name}**]({url}) | {desc} | {lang_badge} | {metric_value} | `{last_updated}` |"
                   )
 
               return headers + "\n" + "\n".join(rows)
@@ -106,9 +112,12 @@ jobs:
 
           all_repos = fetch_original_repos()
 
-          # Sort original repositories
-          top_starred = sorted(all_repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)
-          top_forked = sorted(all_repos, key=lambda r: r.get("forks_count", 0), reverse=True)
+          # Sort by metric count DESC, then by latest push/update date DESC as tie-breaker
+          sort_key_starred = lambda r: (r.get("stargazers_count", 0), r.get("pushed_at") or r.get("updated_at") or "")
+          sort_key_forked = lambda r: (r.get("forks_count", 0), r.get("pushed_at") or r.get("updated_at") or "")
+
+          top_starred = sorted(all_repos, key=sort_key_starred, reverse=True)
+          top_forked = sorted(all_repos, key=sort_key_forked, reverse=True)
 
           starred_table = generate_table(top_starred, "stargazers_count", "⭐", "Stars")
           forked_table = generate_table(top_forked, "forks_count", "🍴", "Forks")
@@ -128,4 +137,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || (git commit -m "docs(readme): update top starred and forked projects" && git push)
+          git diff --staged --quiet || (git commit -m "docs(readme): sync top starred and forked projects" && git push)
