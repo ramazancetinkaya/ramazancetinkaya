@@ -199,14 +199,6 @@ If you have an urgent matter or a professional inquiry, you can reach me directl
 * URL shorteners are automatically filtered for safety, but direct links to reputable developer platforms or official documentation are acceptable for context.
 * Refrain from including any attachments or files, as these will be automatically discarded to maintain the security of the communication channel.
 * Plain text is preferred for a faster and safer review.
-
-<div align="center">
-
-  <h2>Github Repository Statistics</h2>
-  
-  ![ramazancetinkaya's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ramazancetinkaya&theme=dark&show_icons=true&hide_border=true)
-
-</div>
     
 ###
   
@@ -218,6 +210,6 @@ If you have an urgent matter or a professional inquiry, you can reach me directl
 
 <div align="center">
   <kbd>
-    <b>Last Updated:</b> April 19, 2026
+    <b>Last Updated:</b> September 2, 2026
   </kbd>
 </div>
