@@ -2,7 +2,7 @@ name: Update Top Repositories
 
 on:
   schedule:
-    # Runs daily at 00:00 UTC
+    # Runs automatically every day at 00:00 UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch repositories and render modern tables
+      - name: Fetch repositories and update README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -35,8 +35,10 @@ jobs:
 
           USERNAME = "ramazancetinkaya"
           HEADERS = {
-              "Accept": "application/vnd.github+json"
+              "Accept": "application/vnd.github.v3+json",
+              "User-Agent": f"{USERNAME}-readme-updater",
           }
+
           token = os.getenv("GITHUB_TOKEN")
           if token:
               HEADERS["Authorization"] = f"Bearer {token}"
@@ -45,20 +47,19 @@ jobs:
               repos = []
               page = 1
               while True:
-                  # type=owner retrieves only repositories owned directly by the user
                   url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&page={page}&type=owner"
                   response = requests.get(url, headers=HEADERS)
                   if response.status_code != 200:
-                      print(f"Failed to fetch repos: {response.status_code} - {response.text}")
+                      print(f"Failed to fetch repositories: {response.status_code}")
                       break
-
+                  
                   data = response.json()
                   if not data or not isinstance(data, list):
                       break
 
-                  # Explicitly filter out any repositories marked as forks
                   for repo in data:
-                      if not repo.get("fork", False):
+                      # Exclude forks; keep only repositories originally created by the user
+                      if not repo.get("fork"):
                           repos.append(repo)
 
                   if len(data) < 100:
@@ -66,45 +67,57 @@ jobs:
                   page += 1
               return repos
 
-          def render_table(repo_list, count_key, metric_header):
+          def clean_description(text, max_len=80):
+              if not text:
+                  return "No description provided."
+              # Prevent broken Markdown tables by replacing pipes and collapsing line breaks
+              sanitized = text.replace("|", "/").replace("\n", " ").replace("\r", " ").strip()
+              if len(sanitized) > max_len:
+                  return sanitized[:max_len].rstrip() + "..."
+              return sanitized
+
+          def generate_table(repo_list, metric_key, metric_icon, metric_title):
               if not repo_list:
                   return "_No public repositories found._"
 
-              header = (
-                  f"| Repository | Description | Primary Language | {metric_header} |\n"
-                  f"| :--- | :--- | :---: | :---: |"
+              headers = (
+                  f"| # | Repository | Description | Language | {metric_icon} {metric_title} |\n"
+                  f"| :-: | :-- | :-- | :-: | :-: |"
               )
-              
               rows = []
-              for repo in repo_list[:5]:
-                  name = repo["name"]
-                  url = repo["html_url"]
-                  raw_desc = repo.get("description") or "No description provided."
-                  # Sanitize pipes and newlines to preserve table alignment
-                  desc = raw_desc.replace("|", "&#124;").replace("\n", " ").strip()
-                  lang = repo.get("language") or "Markdown"
-                  count = repo.get(count_key, 0)
+              for rank, repo in enumerate(repo_list[:5], start=1):
+                  name = repo.get("name", "Unknown")
+                  url = repo.get("html_url", "#")
+                  desc = clean_description(repo.get("description"))
+                  lang = repo.get("language")
+                  lang_badge = f"`{lang}`" if lang else "-"
+                  metric_value = f"{repo.get(metric_key, 0):,}"
 
-                  rows.append(f"| [**{name}**]({url}) | {desc} | `{lang}` | **{count}** |")
+                  rows.append(
+                      f"| **{rank}** | [**{name}**]({url}) | {desc} | {lang_badge} | {metric_value} |"
+                  )
 
-              return header + "\n" + "\n".join(rows)
+              return headers + "\n" + "\n".join(rows)
 
-          repos = fetch_original_repos()
+          def replace_section(content, section_name, new_table):
+              pattern = rf"(<!-- START_SECTION:{section_name} -->)(.*?)(<!-- END_SECTION:{section_name} -->)"
+              replacement = f"\\1\n\n{new_table}\n\n\\3"
+              return re.sub(pattern, replacement, content, flags=re.DOTALL)
 
-          top_starred = sorted(repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)
-          top_forked = sorted(repos, key=lambda r: r.get("forks_count", 0), reverse=True)
+          all_repos = fetch_original_repos()
 
-          starred_table = render_table(top_starred, "stargazers_count", "Stars ⭐")
-          forked_table = render_table(top_forked, "forks_count", "Forks 🍴")
+          # Sort original repositories
+          top_starred = sorted(all_repos, key=lambda r: r.get("stargazers_count", 0), reverse=True)
+          top_forked = sorted(all_repos, key=lambda r: r.get("forks_count", 0), reverse=True)
+
+          starred_table = generate_table(top_starred, "stargazers_count", "⭐", "Stars")
+          forked_table = generate_table(top_forked, "forks_count", "🍴", "Forks")
 
           with open("README.md", "r", encoding="utf-8") as f:
               readme_content = f.read()
 
-          starred_pattern = r"()(.*?)()"
-          readme_content = re.sub(starred_pattern, f"\\1\n\n{starred_table}\n\n\\3", readme_content, flags=re.DOTALL)
-
-          forked_pattern = r"()(.*?)()"
-          readme_content = re.sub(forked_pattern, f"\\1\n\n{forked_table}\n\n\\3", readme_content, flags=re.DOTALL)
+          readme_content = replace_section(readme_content, "starred", starred_table)
+          readme_content = replace_section(readme_content, "forked", forked_table)
 
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(readme_content)
@@ -115,4 +128,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || (git commit -m "style: format top repositories table" && git push)
+          git diff --staged --quiet || (git commit -m "docs(readme): update top starred and forked projects" && git push)
