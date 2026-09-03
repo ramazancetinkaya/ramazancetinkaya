@@ -35,7 +35,7 @@
 | **1** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 108 | `2024-05-10` |
 | **2** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 81 | `2025-02-22` |
 | **3** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 79 | `2024-12-23` |
-| **4** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built... | `JavaScript` | 73 | `2025-08-29` |
+| **4** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built... | `JavaScript` | 74 | `2025-08-29` |
 | **5** | [**todolist**](https://github.com/ramazancetinkaya/todolist) | A modern, highly intuitive, and responsive Kanban-based todo list applicati... | `HTML` | 62 | `2026-05-30` |
 
 <!-- END_SECTION:forked -->
