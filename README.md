@@ -2,6 +2,8 @@
   <img src="github-profile-cover.jpeg" width="auto" height="auto" alt="Cover Image">
 </p>
 
+![](https://github-views-counter.ramazancetinkaya.workers.dev?page=ramazancetinkaya&logo=true)
+
 <div align="center">
 
   <img src="https://komarev.com/ghpvc/?username=ramazancetinkaya&label=Profile%20Views&color=6366f1&style=for-the-badge" alt="ramazancetinkaya" /> 
