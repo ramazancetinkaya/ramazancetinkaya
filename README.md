@@ -35,8 +35,8 @@
 | **1** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 107 | `2024-05-10` |
 | **2** | [**workbase-directory-lister**](https://github.com/ramazancetinkaya/workbase-directory-lister) | No need to say much—this is the best directory list tool for anyone who wan... | `PHP` | 81 | `2026-05-18` |
 | **3** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 80 | `2025-02-22` |
-| **4** | [**color-code-converter**](https://github.com/ramazancetinkaya/color-code-converter) | A modern PHP library for converting color codes between RGB, HEX, and HSL.... | `PHP` | 78 | `2024-12-30` |
-| **5** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 78 | `2024-12-23` |
+| **4** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 78 | `2024-12-23` |
+| **5** | [**color-code-converter**](https://github.com/ramazancetinkaya/color-code-converter) | A modern PHP library for converting color codes between RGB, HEX, and HSL.... | `PHP` | 77 | `2024-12-30` |
 
 <!-- END_SECTION:forked -->
 
