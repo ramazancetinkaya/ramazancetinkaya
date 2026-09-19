@@ -23,7 +23,7 @@
 | **2** | [**password-generator**](https://github.com/ramazancetinkaya/password-generator) | A modern and simple password generator built using HTML, CSS and JS to crea... | `HTML` | 149 | `2026-06-09` |
 | **3** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 144 | `2024-12-23` |
 | **4** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 114 | `2024-05-10` |
-| **5** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 95 | `2025-02-22` |
+| **5** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 94 | `2025-02-22` |
 
 <!-- END_SECTION:starred -->
 
@@ -32,11 +32,11 @@
 
 | # | Repository | Description | Language | 🍴 Forks | Last Updated |
 | :-: | :-- | :-- | :-: | :-: | :-: |
-| **1** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 105 | `2024-05-10` |
+| **1** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 104 | `2024-05-10` |
 | **2** | [**workbase-directory-lister**](https://github.com/ramazancetinkaya/workbase-directory-lister) | No need to say much—this is the best directory list tool for anyone who wan... | `PHP` | 78 | `2026-05-18` |
-| **3** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 78 | `2025-02-22` |
-| **4** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 77 | `2024-12-23` |
-| **5** | [**color-code-converter**](https://github.com/ramazancetinkaya/color-code-converter) | A modern PHP library for converting color codes between RGB, HEX, and HSL.... | `PHP` | 73 | `2024-12-30` |
+| **3** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 77 | `2025-02-22` |
+| **4** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 76 | `2024-12-23` |
+| **5** | [**color-code-converter**](https://github.com/ramazancetinkaya/color-code-converter) | A modern PHP library for converting color codes between RGB, HEX, and HSL.... | `PHP` | 72 | `2024-12-30` |
 
 <!-- END_SECTION:forked -->
 
