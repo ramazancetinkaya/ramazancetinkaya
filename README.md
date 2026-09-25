@@ -21,7 +21,7 @@
 | :-: | :-- | :-- | :-: | :-: | :-: |
 | **1** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built... | `JavaScript` | 151 | `2025-08-29` |
 | **2** | [**password-generator**](https://github.com/ramazancetinkaya/password-generator) | A modern and simple password generator built using HTML, CSS and JS to crea... | `HTML` | 149 | `2026-06-09` |
-| **3** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 144 | `2024-12-23` |
+| **3** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | An implementation of the classic Snake game using HTML5, CSS, and JavaScrip... | `JavaScript` | 145 | `2024-12-23` |
 | **4** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 114 | `2024-05-10` |
 | **5** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 93 | `2025-02-22` |
 
