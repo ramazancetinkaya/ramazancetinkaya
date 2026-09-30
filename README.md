@@ -19,11 +19,11 @@
 
 | # | Repository | Description | Language | ⭐ Stars | Last Updated |
 | :-: | :-- | :-- | :-: | :-: | :-: |
-| **1** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | A sleek, masterfully crafted revival of the legendary arcade experience, en... | `JavaScript` | 190 | `2026-09-27` |
+| **1** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | A sleek, masterfully crafted revival of the legendary arcade experience, en... | `JavaScript` | 195 | `2026-09-27` |
 | **2** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built... | `JavaScript` | 151 | `2025-08-29` |
 | **3** | [**password-generator**](https://github.com/ramazancetinkaya/password-generator) | A modern and simple password generator built using HTML, CSS and JS to crea... | `HTML` | 149 | `2026-06-09` |
 | **4** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 114 | `2024-05-10` |
-| **5** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 93 | `2025-02-22` |
+| **5** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 92 | `2025-02-22` |
 
 <!-- END_SECTION:starred -->
 
