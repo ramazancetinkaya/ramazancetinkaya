@@ -32,10 +32,10 @@
 
 | # | Repository | Description | Language | 🍴 Forks | Last Updated |
 | :-: | :-- | :-- | :-: | :-: | :-: |
-| **1** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 97 | `2024-05-10` |
+| **1** | [**mysql-backup**](https://github.com/ramazancetinkaya/mysql-backup) | A powerful and modern PHP library for backing up and restoring MySQL databa... | `PHP` | 96 | `2024-05-10` |
 | **2** | [**snake-game**](https://github.com/ramazancetinkaya/snake-game) | A sleek, masterfully crafted revival of the legendary arcade experience, en... | `JavaScript` | 75 | `2026-09-27` |
-| **3** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 73 | `2025-02-22` |
-| **4** | [**workbase-directory-lister**](https://github.com/ramazancetinkaya/workbase-directory-lister) | No need to say much—this is the best directory list tool for anyone who wan... | `PHP` | 72 | `2026-05-18` |
+| **3** | [**workbase-directory-lister**](https://github.com/ramazancetinkaya/workbase-directory-lister) | No need to say much—this is the best directory list tool for anyone who wan... | `PHP` | 72 | `2026-05-18` |
+| **4** | [**morse-code**](https://github.com/ramazancetinkaya/morse-code) | A simple PHP library for converting text to Morse code and vice versa. | `PHP` | 72 | `2025-02-22` |
 | **5** | [**tictactoe**](https://github.com/ramazancetinkaya/tictactoe) | Challenge a smart, heuristic-based AI in this sleek Tic-Tac-Toe game. Built... | `JavaScript` | 68 | `2025-08-29` |
 
 <!-- END_SECTION:forked -->
